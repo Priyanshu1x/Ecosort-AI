@@ -1,10 +1,6 @@
 # Dataset
 data/
 
-# Model checkpoints
-checkpoints/*.pth
-checkpoints/*.pt
-
 # Python cache
 __pycache__/
 *.pyc
