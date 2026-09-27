@@ -22,9 +22,9 @@ model1=models.BaselineCNN()
 model2=models.build_resnet18()
 model3=models.build_EfficientNet()
 
-final_model1,fulldataset1=train.train_model(model1,train_dataloader,valid_dataloader,0.001,5,checkpoint_path = "D:/Ecosort AI/checkpoints/baseline.pth")
-final_model2,fulldataset2=train.train_model(model2,train_dataloader,valid_dataloader,0.001,5,checkpoint_path = "D:/Ecosort AI/checkpoints/resnet18.pth")
-final_model3,fulldataset3=train.train_model(model3,train_dataloader,valid_dataloader,0.001,5,checkpoint_path = "D:/Ecosort AI/checkpoints/efficientnet.pth")
+final_model1,fulldataset1=train.train_model(model1,train_dataloader,valid_dataloader,0.001,40,checkpoint_path = "D:/Ecosort AI/checkpoints/baseline.pth")
+final_model2,fulldataset2=train.train_model(model2,train_dataloader,valid_dataloader,0.001,15,checkpoint_path = "D:/Ecosort AI/checkpoints/resnet18.pth")
+final_model3,fulldataset3=train.train_model(model3,train_dataloader,valid_dataloader,0.001,20,checkpoint_path = "D:/Ecosort AI/checkpoints/efficientnet.pth")
 
 class_name=["Dry", "Wet", "Recyclable", "ewaste"]
 accuracy1, y_true1, y_confd1, y_alter1,y_alter_class1, y_pred1, cm1=evaluate.evaluate_model(final_model1,test_dataloader,class_names=class_name)
