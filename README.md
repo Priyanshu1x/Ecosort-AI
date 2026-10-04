@@ -14,6 +14,7 @@ The system was developed with a focus on balancing **classification performance,
 ---
 
 ♻️ Test the AI live: Upload a photo and see exactly how the model categorizes waste.
+
 🔗 Web App: https://ecosort-ai-0.streamlit.app/
 
 ## Project Overview
