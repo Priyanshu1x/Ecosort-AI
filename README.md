@@ -13,6 +13,9 @@ The system was developed with a focus on balancing **classification performance,
 
 ---
 
+♻️ Test the AI live: Upload a photo and see exactly how the model categorizes waste.
+🔗 Web App: https://ecosort-ai-0.streamlit.app/
+
 ## Project Overview
 
 Manual waste segregation is often inconsistent and difficult to scale. EcoSort-AI addresses this problem by using image classification to automatically identify the category of a waste item from an uploaded image.
